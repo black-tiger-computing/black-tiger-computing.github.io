@@ -1,2 +1,193 @@
 # black-tiger-computing.github.io
 trying to make a serious company, out of serious ideas
+[index.html](https://github.com/user-attachments/files/26075545/index.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Black Tiger Computing</title>
+  <meta name="description" content="Black Tiger Computing — experimental software, creator tooling, and AI-assisted digital systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell topbar">
+      <a class="brand" href="#">
+        <span class="brand-mark"></span>
+        <span>Black Tiger Computing</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/black-tiger-computing" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+
+    <div class="shell hero">
+      <div class="hero-copy">
+        <div class="eyebrow">Experimental software · creator tooling · AI-assisted workflows</div>
+        <h1>Strange ideas, shipped cleanly.</h1>
+        <p class="lead">
+          Black Tiger Computing is a solo software label and digital build shop focused on experimental systems,
+          creator support tooling, lightweight web products, and AI-assisted artifacts that are meant to be used,
+          not just imagined.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View projects</a>
+          <a class="button secondary" href="#services">See services</a>
+        </div>
+
+        <div class="hero-note">
+          Built for a solo company structure: one public front door, multiple products, and room to grow.
+        </div>
+      </div>
+
+      <aside class="hero-panel">
+        <div class="panel-block">
+          <div class="panel-label">Current focus</div>
+          <strong>Ritual, QSIM, static tools, and practical digital support</strong>
+        </div>
+        <div class="panel-block">
+          <div class="panel-label">What this site is for</div>
+          <strong>A clean landing page for software, services, and public-facing experiments</strong>
+        </div>
+        <div class="panel-block">
+          <div class="panel-label">Stack</div>
+          <strong>GitHub Pages, local AI workflows, automation, documentation, and visual systems</strong>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section id="projects" class="section">
+      <div class="section-head">
+        <div>
+          <div class="section-eyebrow">Projects</div>
+          <h2>Software and public experiments</h2>
+        </div>
+        <p>Use these project cards as your public map. Update the links and copy as each repo matures.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="card project-card">
+          <div class="card-accent gold"></div>
+          <h3>Ritual</h3>
+          <p>
+            A software track under Black Tiger Computing. Position Ritual here as a product, workflow system,
+            or focused tool once the public framing is locked.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Product</span>
+            <span class="tag">Workflow</span>
+            <span class="tag">In development</span>
+          </div>
+          <div class="link-row">
+            <a href="https://github.com/black-tiger-computing/ritual" target="_blank" rel="noopener">Repository</a>
+          </div>
+        </article>
+
+        <article class="card project-card">
+          <div class="card-accent blue"></div>
+          <h3>Quantum Instance Simulation Machine</h3>
+          <p>
+            A conceptual and visual simulation environment for neighbor-driven sheet-field behavior, dynamic state
+            interaction, and experimental presentation.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Simulation</span>
+            <span class="tag">Visualization</span>
+            <span class="tag">Experimental computing</span>
+          </div>
+          <div class="link-row">
+            <a href="https://github.com/black-tiger-computing/quantum-instance-simulation-machine-" target="_blank" rel="noopener">Repository</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="section-head">
+        <div>
+          <div class="section-eyebrow">Services</div>
+          <h2>Revenue-facing work</h2>
+        </div>
+        <p>Practical small-scale services that fit the company and can turn into retainers or deliverables.</p>
+      </div>
+
+      <div class="service-grid">
+        <article class="card">
+          <h3>Creator operations</h3>
+          <p>
+            Behind-the-scenes support for creators who need moderation, light editing, content organization,
+            audience handling, and workflow relief.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Transcript and editorial cleanup</h3>
+          <p>
+            AI-assisted, human-reviewed cleanup for transcripts, captions, notes, messy drafts, and rough inputs
+            that need to become usable deliverables.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Idea-to-artifact builds</h3>
+          <p>
+            One-page sites, PDF explainers, visual decks, prompt packs, light public tools, and simple digital
+            products built from rough concepts.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about-grid">
+      <article class="card">
+        <div class="section-eyebrow">About</div>
+        <h2>One company, multiple lanes</h2>
+        <p>
+          Black Tiger Computing is the umbrella identity for software products, experiments, and digital services.
+          It gives the work a stable public frame without forcing every project to carry the full weight of the brand.
+        </p>
+        <ul class="clean-list">
+          <li>Experimental software and concept tools</li>
+          <li>Static web builds and landing pages</li>
+          <li>Creator support and operational relief</li>
+          <li>Documentation, packaging, and visual presentation</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <div class="section-eyebrow">Contact</div>
+        <h2>Public links</h2>
+        <p>Replace the placeholders below with your live links once the page is published.</p>
+        <ul class="clean-list">
+          <li><a href="https://github.com/black-tiger-computing" target="_blank" rel="noopener">GitHub organization</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="mailto:your-email@example.com">your-email@example.com</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section final-note">
+      <div class="card">
+        <div class="section-eyebrow">Next step</div>
+        <h2>Publish first, polish second.</h2>
+        <p>
+          Upload this starter to <strong>black-tiger-computing.github.io</strong>, enable GitHub Pages from
+          <strong>main / (root)</strong>, and get the live URL online. Then replace placeholder links, add project
+          screenshots, and tighten the Ritual copy.
+        </p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
