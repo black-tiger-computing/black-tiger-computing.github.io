@@ -3,12 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Black Tiger Computing</title>
 </head>
 <body>
-    <h1>Welcome to Black Tiger Computing</h1>
-    <p>Contact: <a href="mailto:sonamcgoo@gmail.com">sonamcgoo@gmail.com</a></p>
-    <p>Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/donald-a-dukes">LinkedIn</a></p>
-    <p>Check out my QSIM project: <a href="https://github.com/black-tiger-computing/quantum-instance-simulation-machine">QSIM</a></p>
+    <header class="site-header">
+        <div class="topbar">
+            <div class="brand">
+                <span class="brand-mark"></span>
+                Black Tiger Computing
+            </div>
+            <nav class="nav">
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="shell">
+            <div class="hero-copy">
+                <span class="eyebrow">Welcome</span>
+                <h1>Black Tiger Computing</h1>
+                <p class="lead">A serious company for serious ideas in computing and quantum systems.</p>
+                <div class="hero-actions">
+                    <a href="mailto:sonamcgoo@gmail.com" class="button primary">Get in Touch</a>
+                    <a href="https://github.com/black-tiger-computing" class="button secondary">View GitHub</a>
+                </div>
+                <div class="hero-note">
+                    Explore our quantum computing initiatives and innovative projects.
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="shell">
+            <div class="section-head">
+                <div>
+                    <span class="section-eyebrow">Featured</span>
+                    <h2>Projects</h2>
+                </div>
+            </div>
+            <div class="project-grid">
+                <div class="card project-card">
+                    <div class="card-accent gold"></div>
+                    <h3>QSIM</h3>
+                    <p>Quantum Instance Simulation Machine - Advanced quantum computing simulations</p>
+                    <div class="tag-row">
+                        <span class="tag">Quantum</span>
+                        <span class="tag">Computing</span>
+                    </div>
+                    <div class="link-row">
+                        <a href="https://github.com/black-tiger-computing/quantum-instance-simulation-machine">View Project →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section final-note">
+        <div class="shell">
+            <div class="section-head">
+                <div>
+                    <span class="section-eyebrow">Connect</span>
+                    <h2>Get In Touch</h2>
+                </div>
+            </div>
+            <div class="card">
+                <p>Email: <a href="mailto:sonamcgoo@gmail.com">sonamcgoo@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/donald-a-dukes">Connect with me</a></p>
+                <ul class="clean-list">
+                    <li><a href="https://github.com/black-tiger-computing">Black Tiger Computing on GitHub</a></li>
+                    <li><a href="https://github.com/black-tiger-computing/quantum-instance-simulation-machine">QSIM Project</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer style="text-align:center; padding:20px; border-top:1px solid rgba(255,255,255,.08); color:var(--muted);">
+        <p>&copy; 2026 Black Tiger Computing. All rights reserved.</p>
+    </footer>
 </body>
 </html>
